@@ -1,0 +1,14 @@
+body{
+	background:url(../imagenes/1.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	color:rgba(0, 0, 0, 099);
+}
+
+article{
+	width: 50%;				<!--seccion de tu pagina-->
+	height: 120px;
+	display: inline-block;
+	color:rgba(0, 0, 0, 099)
+	
+}

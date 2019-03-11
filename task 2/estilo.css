@@ -1,0 +1,73 @@
+
+bloqueizquierda{
+  float: left;
+    /*ALTURA DE CAJA( PARA LA LETRA)  */
+  line-height:2em;
+    
+}
+bloquederecha{	
+    float: left;
+    text-indent: 100pt;
+}
+
+#formato-texto{
+    left: 250px;
+    width: 700px;
+	display: inline-block;
+    position: relative;
+    
+}
+
+colorletra{
+    color: white;
+}
+
+#tabulacion{
+    /* COMANDO DE TABULACION  */
+    text-indent: 130pt;
+}
+
+#formatonegro{
+    color: black;
+    /* TAMAÑO DE LETRA  */
+    font-size: 2em;
+    /**/
+    text-indent: 5cm; 
+}
+
+.contenedor{
+    <!-- POSICION DEL TEXTO DE  -->
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.negro{
+  background-color: black;
+  transform: perspective(1px) translateY(-67%);
+}
+
+.texto-encima{
+    position: absolute;
+    font-size: 5em;
+    top: 10px;
+    left: 10px;
+}
+
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.logopelota{
+    position: absolute;
+    top: 100%;
+    left: 80%;
+    transform: translate(-60%, -60%);
+}
+
+
