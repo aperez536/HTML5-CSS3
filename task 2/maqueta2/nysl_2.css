@@ -1,0 +1,117 @@
+#menu1{
+  width: 40px;
+  height: 20px;
+  background-color: green;
+ /* sombreado de caja*/
+  box-shadow: 5px 5px;
+  /* */
+    /* Esta propiedad le permite rotar, escalar, mover, sesgar, etc., elementos.*/
+  transform: translateX(3280%) translateY(-2200%);
+}
+#texto{
+   position: absolute;
+    top: 60%;
+    left: 0%;
+
+}
+#menu2{
+  width: 80px;
+  height: 20px;
+  background-color: blue;
+  box-shadow: 5px 5px;
+ transform: translateX( 1700%)translateY(-2380%);
+}
+
+#menu3{
+  width: 50px;
+  height: 20px;
+  background-color: purple;
+  box-shadow: 5px 5px;
+  transform: translateX( 2894%) translateY(-2560%);
+}
+
+#bloqueizquierda{
+    position: absolute;
+    top: 73%;
+    left: 1%;
+    transform: translateX( -5%) translateY(-90%);
+    
+}
+#bloquederecha{	
+    float: left;
+    text-indent: 100pt;
+}
+
+#formato-texto{
+    position: absolute;
+    top: 73%;
+    left: 1%;
+    left: 250px;
+    width: 700px;
+	display: inline-block;
+    
+}
+/* ubicacion de parrafo */
+#posicion-texto{
+    left: 25px;
+    width: 730px;
+    position: relative;
+    
+}
+
+#colorletra{
+    color: black;
+}
+
+#tabulacion{
+    /* COMANDO DE TABULACION  */
+    text-indent: 40pt;
+}
+
+#formatonegro{
+    color: black;
+    /* TAMAÑO DE LETRA  */
+    font-size: 2em;
+    /**/
+    text-indent: 5cm; 
+}
+
+.contenedor{
+    /* POSICION DEL TEXTO De imagen */
+    position: relative;
+    display: inline-block;
+}
+
+
+.negro{
+  background-color: white;
+  width: 1500pt;
+  text-align: center;
+  border:  1pt black solid ;
+  transform: perspective(1px) translateY(-150%);
+}
+
+.texto-encima{
+    position: absolute;
+    font-size: 5em;
+    top: 10px;
+    left: 10px;
+}
+/* nose usa todavia pero es para quedar en el centro el texto*/
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/******  */
+
+.logopelota{
+    position: absolute;
+    top: 100%;
+    left: 80%;
+    transform: translate(-60%, -60%);
+}
+
+

@@ -1,13 +1,13 @@
 
-bloqueizquierda{
+#bloqueizquierda{
   float: left;
     /*ALTURA DE CAJA( PARA LA LETRA)  */
   line-height:2em;
     
 }
-bloquederecha{	
+#bloquederecha{	
     float: left;
-    text-indent: 100pt;
+    text-indent: 150pt;
 }
 
 #formato-texto{
@@ -17,8 +17,15 @@ bloquederecha{
     position: relative;
     
 }
+/* ubicacion de parrafo */
+#posicion-texto{
+    left: 25px;
+    width: 730px;
+    position: relative;
+    
+}
 
-colorletra{
+#colorletra{
     color: white;
 }
 
@@ -36,10 +43,10 @@ colorletra{
 }
 
 .contenedor{
-    <!-- POSICION DEL TEXTO DE  -->
+    /* POSICION DEL TEXTO De imagen */
     position: relative;
     display: inline-block;
-    text-align: center;
+   /* text-align: center;*/
 }
 
 
@@ -54,7 +61,7 @@ colorletra{
     top: 10px;
     left: 10px;
 }
-
+/* nose usa todavia pero es para quedar en el centro el texto*/
 .centrado{
     position: absolute;
     top: 50%;
@@ -62,6 +69,7 @@ colorletra{
     transform: translate(-50%, -50%);
 }
 
+/******  */
 
 .logopelota{
     position: absolute;
