@@ -29,8 +29,8 @@
 
 #pelota{
     position: absolute;
-    top: 13%;
-    left: 46%;
+    top: 16%;
+    left: 44%;
     
     
 }
@@ -83,7 +83,7 @@
 
 .negro{
   background-color:aqua;
-  width: 1500pt;
+  width: 1350pt;
   text-align: center;
   border:  1pt black solid ;
   transform: perspective(1px) translateY(-150%);
@@ -93,7 +93,7 @@
     position: absolute;
     font-size: 1em;
     top: 5px;
-    left: 800px;
+    left: 700px;
 
 /* nose usa todavia pero es para quedar en el centro el texto*/
 .centrado{
