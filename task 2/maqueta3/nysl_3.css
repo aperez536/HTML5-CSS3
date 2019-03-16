@@ -39,8 +39,8 @@
 }
 
 #formato-texto{
+    font-size: 1.5em;
     position: absolute;
-    
     top: 53%;
     left: 20px;
     width: 900px;

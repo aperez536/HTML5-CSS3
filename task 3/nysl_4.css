@@ -1,3 +1,5 @@
+
+
 #menu1{
   width: 40px;
   height: 20px;
@@ -6,58 +8,53 @@
   box-shadow: 5px 5px;
   /* */
     /* Esta propiedad le permite rotar, escalar, mover, sesgar, etc., elementos.*/
-  transform: translateX(3280%) translateY(-2200%);
+  transform: translateX(32%) translateY(280%);
 }
-#texto{
-   position: absolute;
-    top: 60%;
-    left: 0%;
 
-}
 #menu2{
+  
   width: 80px;
   height: 20px;
   background-color: blue;
   box-shadow: 5px 5px;
- transform: translateX( 1700%)translateY(-2380%);
+ transform: translateX( 100%)translateY(100%);
 }
 
 #menu3{
   width: 50px;
   height: 20px;
+  
   background-color: purple;
   box-shadow: 5px 5px;
-  transform: translateX( 2894%) translateY(-2560%);
+  transform: translateX( 350%) translateY(-80%);
 }
 
-#bloqueizquierda{
+#pelota{
     position: absolute;
-    top: 73%;
-    left: 1%;
-    transform: translateX( -5%) translateY(-90%);
-    
+     transform: translateX( 550%) translateY(-200%);   
 }
+
 #bloquederecha{	
     float: left;
     text-indent: 100pt;
 }
 
 #formato-texto{
-    font-size: 1.5em;
     position: absolute;
-    top: 73%;
-    left: 1%;
-    left: 250px;
-    width: 700px;
+    
+    top: 53%;
+    left: 20px;
+    width: 900px;
 	display: inline-block;
+    
     
 }
 /* ubicacion de parrafo */
 #posicion-texto{
     left: 25px;
-    width: 730px;
+    width: 1500px;
     position: relative;
-    
+    font-size: 1.3em;    
 }
 
 #colorletra{
@@ -70,7 +67,6 @@
 }
 
 #formatonegro{
-    position: absolute
     color: black;
     /* TAMAÑO DE LETRA  */
     font-size: 2em;
@@ -86,18 +82,18 @@
 
 
 .negro{
-  background-color: white;
-  width: 1500pt;
+  background-color:aqua;
+  width: 1350pt;
   text-align: center;
   border:  1pt black solid ;
   transform: perspective(1px) translateY(-150%);
 }
 
-.texto-encima{
+#texto-encima{
     position: absolute;
-    font-size: 5em;
-    top: 10px;
-    left: 10px;
+    font-size: 1em;
+    top: 5px;
+    left: 700px;
 }
 /* nose usa todavia pero es para quedar en el centro el texto*/
 .centrado{
@@ -106,17 +102,16 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+  
+th{
+    width: 25%;
+    text-align: left
+  }
+td{
+  padding-right: 50px;
+}
 
 /******  */
 
-.logopelota{
-    position: absolute;
-    top: 100%;
-    left: 80%;
-    transform: translate(-60%, -60%);
-}
-#logopelota{
-    position: absolute;
-   }
 
 
