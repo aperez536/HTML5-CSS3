@@ -52,6 +52,7 @@
 
 .negro{
   background-color: black;
+  width: 1012pt;
   transform: perspective(1px) translateY(-67%);
 }
 

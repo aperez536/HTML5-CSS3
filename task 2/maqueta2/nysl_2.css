@@ -69,6 +69,7 @@
 }
 
 #formatonegro{
+    position: absolute
     color: black;
     /* TAMAÑO DE LETRA  */
     font-size: 2em;
@@ -113,5 +114,8 @@
     left: 80%;
     transform: translate(-60%, -60%);
 }
+#logopelota{
+    position: absolute;
+   }
 
 

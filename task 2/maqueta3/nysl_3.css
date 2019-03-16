@@ -29,8 +29,7 @@
 
 #pelota{
     position: absolute;
-    top: 16%;
-    left: 44%;
+     transform: translateX( 550%) translateY(-200%);
     
     
 }
@@ -41,10 +40,12 @@
 
 #formato-texto{
     position: absolute;
+    
     top: 53%;
     left: 20px;
     width: 900px;
 	display: inline-block;
+    
     
 }
 /* ubicacion de parrafo */
@@ -52,7 +53,7 @@
     left: 25px;
     width: 1500px;
     position: relative;
-  font-size: 1.3em;
+    font-size: 1.3em;
   
     
 }
