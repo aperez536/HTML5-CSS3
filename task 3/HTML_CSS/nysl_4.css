@@ -8,7 +8,7 @@
   box-shadow: 5px 5px;
   /* */
     /* Esta propiedad le permite rotar, escalar, mover, sesgar, etc., elementos.*/
-  transform: translateX(32%) translateY(280%);
+  transform: translateX(62%) translateY(510%);
 }
 
 #menu2{
@@ -17,7 +17,7 @@
   height: 20px;
   background-color: blue;
   box-shadow: 5px 5px;
- transform: translateX( 100%)translateY(100%);
+ transform: translateX( 100%)translateY(336%);
 }
 
 #menu3{
@@ -26,8 +26,27 @@
   
   background-color: purple;
   box-shadow: 5px 5px;
-  transform: translateX( 350%) translateY(-80%);
+  transform: translateX( 350%) translateY(162%);
 }
+
+#menu4{
+  width: 120px;
+  height: 20px;
+  
+  background-color:coral;
+  box-shadow: 5px 5px;
+  transform: translateX( 200%) translateY(-20%);
+}
+
+#menu5{
+  width: 50px;
+  height: 20px;
+  
+  background-color:darkseagreen;
+  box-shadow: 5px 5px;
+  transform: translateX( 750%) translateY(-200%);
+}
+
 
 #pelota{
     position: absolute;
@@ -41,7 +60,7 @@
 
 #formato-texto{
     position: absolute;
-    
+    font-size:1.3em;
     top: 53%;
     left: 20px;
     width: 900px;
@@ -86,7 +105,7 @@
   width: 1350pt;
   text-align: center;
   border:  1pt black solid ;
-  transform: perspective(1px) translateY(-150%);
+  transform: perspective(1px) translateY(-250%);
 }
 
 #texto-encima{
