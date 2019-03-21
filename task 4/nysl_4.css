@@ -1,0 +1,175 @@
+
+
+#menu1{
+  width: 40px;
+  height: 20px;
+  background-color: green;
+ /* sombreado de caja*/
+  box-shadow: 5px 5px;
+  /* */
+    /* Esta propiedad le permite rotar, escalar, mover, sesgar, etc., elementos.*/
+  transform: translateX(62%) translateY(510%);
+}
+
+#menu2{
+  
+  width: 80px;
+  height: 20px;
+  background-color: blue;
+  box-shadow: 5px 5px;
+ transform: translateX( 100%)translateY(336%);
+}
+
+#menu3{
+  width: 50px;
+  height: 20px;
+  
+  background-color: purple;
+  box-shadow: 5px 5px;
+  transform: translateX( 350%) translateY(162%);
+}
+
+#menu4{
+  width: 120px;
+  height: 20px;
+  
+  background-color:coral;
+  box-shadow: 5px 5px;
+  transform: translateX( 200%) translateY(-20%);
+}
+
+#menu5{
+  width: 50px;
+  height: 20px;
+  
+  background-color:darkseagreen;
+  box-shadow: 5px 5px;
+  transform: translateX( 750%) translateY(-200%);
+}
+
+
+#pelota{
+    position: absolute;
+     transform: translateX( 550%) translateY(-200%);   
+}
+
+#bloquederecha{	
+    float: left;
+    text-indent: 100pt;
+}
+
+#formato-texto{
+    position: absolute;
+    font-size:1.3em;
+    top: 53%;
+    left: 20px;
+    width: 900px;
+	display: inline-block;
+    
+    
+}
+/* ubicacion de parrafo */
+#posicion-texto{
+    left: 25px;
+    width: 1500px;
+    position: relative;
+    font-size: 1.3em;    
+}
+
+#colorletra{
+    color: black;
+}
+
+#tabulacion{
+    /* COMANDO DE TABULACION  */
+    text-indent: 40pt;
+}
+
+#formatonegro{
+    color: black;
+    /* TAMAÑO DE LETRA  */
+    font-size: 2em;
+    /**/
+    text-indent: 5cm; 
+}
+
+.contenedor{
+    /* POSICION DEL TEXTO De imagen */
+    position: relative;
+    display: inline-block;
+}
+
+
+.negro{
+  background-color:aqua;
+  width: 1350pt;
+  text-align: center;
+  border:  1pt black solid ;
+  transform: perspective(1px) translateY(-250%);
+}
+
+#texto-encima{
+    position: absolute;
+    font-size: 1em;
+    top: 5px;
+    left: 700px;
+}
+/* nose usa todavia pero es para quedar en el centro el texto*/
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
+th{
+    width: 25%;
+    text-align: left
+  }
+td{
+  padding-right: 50px;
+}
+section{
+    padding-left: 2%;
+}
+#ladoderecho{
+  padding-left: 10%;
+  transform: translateX(20%)translateY(-115%);
+
+}
+#ladoderecho2{
+  padding-left: 30%;
+ transform: translateY(-120%);
+ display:inline-block;
+}
+
+#titulo1{
+   transform: translateY(-570%);
+}
+#arriba1{
+    transform: translateY(-250%);
+}
+#titulo2{
+    transform: translateY(-570%);
+}
+#arriba2{
+    transform: translateY(-200%);
+} 
+
+#arriba3{
+    transform: translateY(-40%);
+}
+
+#arriba4{
+    position: absolute;
+    transform: translateY(-140%);
+    width: 1800px;
+}
+/******  */
+
+.venue-theatre {
+  margin-bottom: 66px;
+}
+
+
+
