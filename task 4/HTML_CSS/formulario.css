@@ -46,6 +46,14 @@
   box-shadow: 5px 5px;
   transform: translateX( 750%) translateY(-200%);
 }
+#menu6{
+  width: 55px;
+  height: 20px;
+  
+  background-color:darkkhaki;
+  box-shadow: 5px 5px;
+  transform: translateX( 800%) translateY(-380%);
+}
 
 
 #pelota{
@@ -121,13 +129,14 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-  
 th{
     width: 25%;
-    text-align: left
+    text-align: left;
+ 
   }
 td{
   padding-right: 50px;
+
 }
 section{
     padding-left: 2%;
@@ -140,7 +149,7 @@ section{
 #ladoderecho2{
   padding-left: 30%;
  transform: translateY(-120%);
- display:inline-block;
+
 }
 
 #titulo1{
@@ -170,6 +179,3 @@ section{
 .venue-theatre {
   margin-bottom: 66px;
 }
-
-
-

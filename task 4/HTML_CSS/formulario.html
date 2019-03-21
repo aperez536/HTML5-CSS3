@@ -5,12 +5,10 @@
     <meta charset="UTF-8">
     <meta name="title" content="Northside Youth Soccer League">
     <!-- <LINK REL=StyleSheet HREF="nysl_4" TYPE="text/css" MEDIA=screen> -->
-      <link rel="stylesheet" href="nysl_4.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="formulario.css" type="text/css" media="screen">
      
   </head>  
-  <body>
-      <body style="background-color: darkkhaki">
-      <body style="background-color: darkkhaki">
+  <body style="background-color: darkkhaki">
       <div id="texto-encima">
         <h1> Northside Youth Soccer League </h1>
       </div>
@@ -33,11 +31,14 @@
      </div>
       
       <div id= "menu4"> 
-           <p style="color: white"> Information game</p>
+          <a style="text-decoration:none" href=info_game.html> <p style="color: white"> Information game</p> </a> 
      </div>
       
       <div id= "menu5"> 
              <a style="text-decoration:none" href=rules.html> <p style="color: white"> Rules </p> </a> 
+     </div>
+     <div id= "menu6"> 
+              <p style="color: white"> Register </p> 
      </div>
       
       
@@ -69,8 +70,8 @@
     <input type="date" size="20" >
     
     Gender:
-    <input type="checkbox" name="hm" value="h"> Male
-    <input type="checkbox" name="hm" value="m"> Female
+    <input type="radio" name="hm" value="h"> Male
+    <input type="radio" name="hm" value="m"> Female
     <br>
     Grade
     <input type="checkbox" name= "Grade" value="Pre-School"> Pre-School
@@ -89,6 +90,7 @@
     <input type="text" name= "Email" size="40">
     <h3>Which elementary schools do you live near?</h3>
     <section>
+    <article style="width: 50%">
     <h4 >First Closest School:</h4>
     <table>
     <tr>
@@ -105,8 +107,8 @@
             <td> <input type="checkbox" name="First_Closest_School" value="South Elementary">South Elementary</td>
         </tr>
     </table>
-    </section>
-    <section id="ladoderecho2">
+    </article>
+    <article id="ladoderecho2">
         <h4>Second Closest School:</h4>
         <table>
         <tr>
@@ -122,7 +124,8 @@
             <td> <input type="checkbox" name="First_Closest_School" value="South Elementary">South Elementary</td>
         </tr>
         </table>
-    </section>
+    </article>
+    </section>  
     <div id="titulo1">
         <h3>What position(s) do you normally play? (check all that apply)</h3>
     </div>
